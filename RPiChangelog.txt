@@ -1,0 +1,14 @@
+Physical Computing RPI Change Log:
+Install Email Script
+
+Basic Raspberry Pi Setup:
+sudo apt-get install vim
+
+Install Pure Data:
+sudo apt-get install pure-data
+
+Install GPIO Library(Probably Already Newest Version):
+sudo apt-get install python-rpi.gpio python3-rpi.gpio
+
+Mount Remote Filesystem for using native programs on remote files: 
+sshfs pi@{ip}:/ /mnt/{mountpoint} -o idmap=user 
