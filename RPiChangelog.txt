@@ -12,3 +12,11 @@ sudo apt-get install python-rpi.gpio python3-rpi.gpio
 
 Mount Remote Filesystem for using native programs on remote files: 
 sshfs pi@{ip}:/ /mnt/{mountpoint} -o idmap=user 
+
+Install Raspberry Pi Neopixel Library:
+sudo apt-get install build-essential python-dev git scons swig
+git clone https://github.com/jgarff/rpi_ws281x.git
+cd rpi_ws281x
+scons
+cd python
+sudo python setup.py install
