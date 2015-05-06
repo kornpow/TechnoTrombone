@@ -22,4 +22,4 @@ fi
 
 hostname -I > /tmp/myip.txt
 
-mail -s "Hello World From Your PI! :D" korn94sam@gmail.com < /tmp/myip.txt
+mail -s "Hello World From Your PI! :D" desaideep@gmail.com < /tmp/myip.txt
